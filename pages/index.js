@@ -2,14 +2,15 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container">
-        <h1 className="text-center">NEXT.JS with TailwindCSS</h1>
+      <main className="w-full">
+        <div className="container mx-auto">
+          <h1 className="text-center">NEXT.JS with TailwindCSS</h1>
         <p className="">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
           euismod tincidunt orci, vel commodo odio. Nunc ut lectus sed purus
@@ -26,6 +27,8 @@ export default function Home() {
           sagittis vel facilisis vel, sodales sit amet risus. Nulla id lectus
           vulputate, semper sapien ac, tempus eros.
         </p>
+        </div>
+        
       </main>
     </div>
   );
